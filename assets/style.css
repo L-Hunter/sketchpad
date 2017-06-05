@@ -1,0 +1,23 @@
+/*hi css*/
+
+#pad {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.row {
+    height: 15px;
+}
+
+.cell {
+    width: 15px;
+    height: 15px;
+    outline: 1px solid gray;
+    display: inline-block;
+    float: left;
+    background: #FFFFFF;
+}
+
+.color {
+	background-color: purple;
+}

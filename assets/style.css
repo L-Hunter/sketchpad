@@ -1,23 +1,76 @@
-/*hi css*/
+body {
+	background-color: #cfdddd;
+	color: #4b2032;
+	font-family: 'Homemade Apple', cursive;
+}
+
+h1 {
+	text-align: center;
+	font-size: 60px;
+	margin: 0;
+	padding: 1px;
+}
+
+.buttons {
+	width: 702px;
+	margin: 0 auto;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+button {
+	background-color: #cbbeb5;
+	color: #4b2032;
+	width: 80px;
+	font-size: 16px;
+	font-family: 'Homemade Apple', cursive;
+}
 
 #pad {
-    width: 90%;
+    width: 702px;
     margin: 0 auto;
+    text-align: center;
 }
 
 .row {
-    height: 15px;
+    height: 10px;
 }
 
 .cell {
-    width: 15px;
-    height: 15px;
-    outline: 1px solid gray;
+    width: 10px;
+    height: 10px;
+    outline: 1px solid #e9e9e9;
     display: inline-block;
     float: left;
     background: #FFFFFF;
 }
 
 .color {
-	background-color: purple;
+	background-color: #cbbeb5;
+}
+
+.red {
+	background-color: #ffb3ba;
+}
+
+.orange {
+	background-color: #ffdfba;
+}
+
+.yellow {
+	background-color: #ffffba;
+}
+
+.green {
+	background-color: #baffc9;
+}
+
+.blue {
+	background-color: #bae1ff;
+;
+}
+
+.purple {
+	background-color: #babdff;
+;
 }

@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-var size = 40;
+var size = 70;
 var $row = $("<div />", {
     class: 'row'
 });
@@ -19,8 +19,56 @@ function render(){
 
 render();
 
+$("#erase").click(function(){
+	$(".cell").css("background-color", "#FFFFFF");
+});
+
+//default coloring
 $( ".cell" ).hover(
   function() {
     $( this ).addClass( "color" );
-  });
+ });
+
+// selected colors
+$("#red").click(function(){
+	$( ".cell" ).hover(
+  		function() {
+    	$( this ).css("background-color", "#ffb3ba" );
+	})
+});
+
+$("#orange").click(function(){
+	$( ".cell" ).hover(
+  		function() {
+    	$( this ).css("background-color", "#ffdfba" );
+	})
+});
+$("#yellow").click(function(){
+	$( ".cell" ).hover(
+  		function() {
+    	$( this ).css("background-color", "#ffffba" );
+	})
+});
+
+$("#green").click(function(){
+	$( ".cell" ).hover(
+  		function() {
+    	$( this ).css("background-color", "#baffc9" );
+	})
+});
+
+$("#blue").click(function(){
+	$( ".cell" ).hover(
+  		function() {
+    	$( this ).css("background-color", "#bae1ff" );
+	})
+});
+
+$("#purple").click(function(){
+	$( ".cell" ).hover(
+  		function() {
+    	$( this ).css("background-color", "#babdff" );
+	})
+});
+
 });
